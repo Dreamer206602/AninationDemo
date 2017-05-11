@@ -1,4 +1,4 @@
-package com.booboomx.aninationdemo;
+package com.booboomx.aninationdemo.Ui.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.booboomx.aninationdemo.R;
+import com.booboomx.aninationdemo.Utils.JumpUtils;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -91,6 +94,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
+
+        }else if(id==R.id.nav_animation){
+
+            //动画
+            JumpUtils.go2AnimationActivity(this);
+
 
         }
 
