@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.booboomx.aninationdemo.Ui.AnimationActivity"
+    tools:context="com.booboomx.aninationdemo.Ui.activity.AnimationActivity"
     tools:showIn="@layout/activity_animation">
 
     <LinearLayout

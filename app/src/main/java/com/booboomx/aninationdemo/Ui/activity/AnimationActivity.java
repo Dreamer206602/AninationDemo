@@ -1,4 +1,4 @@
-package com.booboomx.aninationdemo.Ui;
+package com.booboomx.aninationdemo.Ui.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -42,7 +42,7 @@ public class AnimationActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn_interpolator_ball, R.id.btn_type_evaluator_ball, R.id.btn_rotation_ball})
+    @OnClick({R.id.btn_interpolator_ball, R.id.btn_type_evaluator_ball, R.id.btn_rotation_ball,R.id.btn_Dropout,R.id.btn_bezier})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_type_evaluator_ball:

@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Ui.AnimationActivity"
+            android:name=".Ui.activity.AnimationActivity"
             android:label="@string/title_activity_animation"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
@@ -33,6 +33,8 @@
         <activity android:name=".Ui.activity.RotationActivity">
         </activity>
         <activity android:name=".Ui.activity.BezierActivity">
+        </activity>
+        <activity android:name=".Ui.activity.ShoppingCarActivity">
         </activity>
     </application>
 

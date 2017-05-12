@@ -7,11 +7,12 @@ package com.booboomx.aninationdemo.Utils;
 import android.content.Context;
 import android.content.Intent;
 
-import com.booboomx.aninationdemo.Ui.AnimationActivity;
+import com.booboomx.aninationdemo.Ui.activity.AnimationActivity;
 import com.booboomx.aninationdemo.Ui.activity.AnimatorSetActivity;
 import com.booboomx.aninationdemo.Ui.activity.BezierActivity;
 import com.booboomx.aninationdemo.Ui.activity.InterpolatorActivity;
 import com.booboomx.aninationdemo.Ui.activity.RotationActivity;
+import com.booboomx.aninationdemo.Ui.activity.ShoppingCarActivity;
 import com.booboomx.aninationdemo.Ui.activity.TypeEvaluatorActivity;
 
 /**
@@ -43,6 +44,10 @@ public class JumpUtils {
 
     public static void go2BezierActivity(Context context) {
         context.startActivity(new Intent(context, BezierActivity.class));
+    }
+
+    public static void go2ShoppingActivity(Context context) {
+        context.startActivity(new Intent(context, ShoppingCarActivity.class));
     }
 
 
