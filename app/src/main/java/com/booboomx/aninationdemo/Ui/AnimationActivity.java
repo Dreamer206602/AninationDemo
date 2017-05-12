@@ -42,12 +42,27 @@ public class AnimationActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn_interpolator_ball,R.id.btn_type_evaluator_ball})
-    public void onViewClicked(View view){
-        switch (view.getId()){
+    @OnClick({R.id.btn_interpolator_ball, R.id.btn_type_evaluator_ball, R.id.btn_rotation_ball})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
             case R.id.btn_type_evaluator_ball:
                 JumpUtils.go2TypeEvaluatorActivity(this);
                 break;
+
+            case R.id.btn_interpolator_ball:
+                JumpUtils.go2InterpolatorActivity(this);
+                break;
+            case R.id.btn_Dropout:
+                JumpUtils.go2AnimatorSetActivity(this);
+                break;
+            case R.id.btn_rotation_ball:
+                JumpUtils.go2RotationActivity(this);
+                break;
+            case R.id.btn_bezier:
+                JumpUtils.go2BezierActivity(this);
+                break;
+
+
         }
     }
 

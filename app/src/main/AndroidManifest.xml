@@ -26,6 +26,14 @@
         </activity>
         <activity android:name=".Ui.activity.TypeEvaluatorActivity">
         </activity>
+        <activity android:name=".Ui.activity.InterpolatorActivity">
+        </activity>
+        <activity android:name=".Ui.activity.AnimatorSetActivity">
+        </activity>
+        <activity android:name=".Ui.activity.RotationActivity">
+        </activity>
+        <activity android:name=".Ui.activity.BezierActivity">
+        </activity>
     </application>
 
 </manifest>
