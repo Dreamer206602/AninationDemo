@@ -36,6 +36,8 @@
         </activity>
         <activity android:name=".Ui.activity.ShoppingCarActivity">
         </activity>
+        <activity android:name=".Ui.activity.RubbingActivity">
+        </activity>
     </application>
 
 </manifest>

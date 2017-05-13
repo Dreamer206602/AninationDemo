@@ -12,6 +12,7 @@ import com.booboomx.aninationdemo.Ui.activity.AnimatorSetActivity;
 import com.booboomx.aninationdemo.Ui.activity.BezierActivity;
 import com.booboomx.aninationdemo.Ui.activity.InterpolatorActivity;
 import com.booboomx.aninationdemo.Ui.activity.RotationActivity;
+import com.booboomx.aninationdemo.Ui.activity.RubbingActivity;
 import com.booboomx.aninationdemo.Ui.activity.ShoppingCarActivity;
 import com.booboomx.aninationdemo.Ui.activity.TypeEvaluatorActivity;
 
@@ -48,6 +49,10 @@ public class JumpUtils {
 
     public static void go2ShoppingActivity(Context context) {
         context.startActivity(new Intent(context, ShoppingCarActivity.class));
+    }
+
+    public static void go2RubbingLayoutActivity(Context context) {
+        context.startActivity(new Intent(context, RubbingActivity.class));
     }
 
 

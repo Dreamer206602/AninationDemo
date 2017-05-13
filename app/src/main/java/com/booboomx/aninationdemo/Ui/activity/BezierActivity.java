@@ -27,11 +27,14 @@ public class BezierActivity extends AppCompatActivity {
     }
 
 
-    @OnClick({R.id.btn_shopping,R.id.btn_rubbing})
-    public void onClick(View view){
-        switch (view.getId()){
+    @OnClick({R.id.btn_shopping, R.id.btn_rubbing})
+    public void onClick(View view) {
+        switch (view.getId()) {
             case R.id.btn_shopping:
                 JumpUtils.go2ShoppingActivity(this);
+                break;
+            case R.id.btn_rubbing:
+                JumpUtils.go2RubbingLayoutActivity(this);
                 break;
         }
     }
