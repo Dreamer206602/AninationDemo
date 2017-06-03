@@ -38,6 +38,8 @@
         </activity>
         <activity android:name=".Ui.activity.RubbingActivity">
         </activity>
+        <activity android:name=".Ui.activity.RetrofitCodeAnalyzeActivity">
+        </activity>
     </application>
 
 </manifest>

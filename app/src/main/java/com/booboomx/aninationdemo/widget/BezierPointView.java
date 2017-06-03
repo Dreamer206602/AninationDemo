@@ -72,8 +72,6 @@ public class BezierPointView extends TextView implements ValueAnimator.AnimatorU
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 //        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
-
         int pointSize = DenstyUsils.dip2px(mContext, VIEW_SIZE);
         setMeasuredDimension(pointSize, pointSize);
         radius = pointSize / 2;
