@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -39,6 +40,8 @@
         <activity android:name=".Ui.activity.RubbingActivity">
         </activity>
         <activity android:name=".Ui.activity.RetrofitCodeAnalyzeActivity">
+        </activity>
+        <activity android:name=".Ui.activity.CustomViewActivity">
         </activity>
     </application>
 
