@@ -89,6 +89,8 @@ public class BezierView extends View {
         canvas.drawPoint(end.x,end.y,mPaint);
         canvas.drawPoint(control.x,control.y,mPaint);
 
+
+
         //绘制辅助线
         mPaint.setStrokeWidth(4);
         canvas.drawLine(start.x,start.y,control.x,control.y,mPaint);
