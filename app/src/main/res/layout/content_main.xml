@@ -21,7 +21,15 @@
          <!--android:layout_height="match_parent"/>-->
 
 
-     <com.booboomx.aninationdemo.widget.BezierView
+     <!--<com.booboomx.aninationdemo.widget.BezierView-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:layout_height="match_parent"/>-->
+
+     <!--<com.booboomx.aninationdemo.widget.Bezier2View-->
+         <!--android:layout_width="match_parent"-->
+         <!--android:layout_height="match_parent"/>-->
+
+     <com.booboomx.aninationdemo.widget.Bezier3View
          android:layout_width="match_parent"
          android:layout_height="match_parent"/>
 
